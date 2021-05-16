@@ -1,0 +1,302 @@
+[
+  {
+    "id": "erich-leinsdorf-1975",
+    "year": "1975",
+    "conductor": "Erich Leinsdorf",
+    "roles": {
+      "Paul": "René Kollo",
+      "Marie/Marietta": "Carol Neblett",
+      "Frank": "Benjamin Luxon",
+      "Brigitta": "Rose Wagemann",
+      "Juliette": "Gabrielle Fuchs",
+      "Lucienne": "Patricia Clark",
+      "Gaston": "Anton De Ridder",
+      "Victorin": "Anton De Ridder",
+      "Fritz": "Hermann Prey",
+      "Graf Albert": "Willi BrokMeier"
+    },
+    "choirs": [
+      "Chor Des Bayerischen Rundfunks",
+      "Tölzer Knabenchor"
+    ],
+    "orchestra": "Münchner Rundfunkorchester",
+    "venue": "Konzertsaal des Bayerischen Rundfunks",
+    "releases": [
+      {
+        "type": "vinyl",
+        "year": "1975",
+        "label": "RCA Red Seal",
+        "ean": "ARL3-ARD3-1199"
+      },
+      {
+        "type": "cd",
+        "year": "1989",
+        "label": "RCA Victor",
+        "ean": "0035628776723"
+      },
+      {
+        "type": "cd",
+        "year": "2009",
+        "label": "RCA Red Seal",
+        "ean": "0886974466024"
+      },
+      {
+        "type": "cd",
+        "year": "2020",
+        "label": "Dutton Vocalion",
+        "ean": "0765387737627"
+      }
+    ]
+  },
+  {
+    "id": "sebastian-weigle-2009",
+    "year": "2009",
+    "conductor": "Sebastian Weigle",
+    "roles": {
+      "Paul": "Klaus Florian Vogt",
+      "Marie/Marietta": "Tatiana Pavlovskaya",
+      "Frank": "Michael Nagy",
+      "Brigitta": "Hedwig Fassbender",
+      "Juliette": "Anna Ryberg",
+      "Lucienne": "Jenny Carlstedt",
+      "Gaston": "Julian Prégardien",
+      "Victorin": "Julian Prégardien",
+      "Fritz": "Michael Nagy",
+      "Graf Albert": "Hans-Jürgen Lazar"
+    },
+    "choirs": [
+      "Chor der Oper Frankfurt",
+      "Kinderchor der Oper Frankfurt"
+    ],
+    "orchestra": "Frankfurter Opern- und Museumorchester",
+    "venue": "Oper Frankfurt",
+    "releases": [
+      {
+        "type": "cd",
+        "year": "2011",
+        "label": "Oehms Classics",
+        "ean": "4260034869486"
+      }
+    ]
+  },
+  {
+    "id": "leif-segerstam-1996",
+    "year": "1996",
+    "conductor": "Leif Segerstam",
+    "roles": {
+      "Paul": "Thomas Sunnegårdh",
+      "Marie/Marietta": "Katarina Dalayman",
+      "Frank": "Anders Bergström",
+      "Brigitta": "Ingrid Tobiasson",
+      "Gaston": "",
+      "Juliette": "Hilde Leidland",
+      "Lucienne": "Anna Tomson",
+      "Victorin": "Lars-Erik Jonsson",
+      "Fritz": "Per-Arne Wahlgren",
+      "Graf Albert": "Ulrik Qvale"
+    },
+    "choirs": [
+      "Royal Swedish Opera Chorus",
+      "Tomtberga School Children's Choir"
+    ],
+    "orchestra": "Royal Swedish Opera Orchestra",
+    "venue": "Oper Frankfurt",
+    "releases": [
+      {
+        "type": "cd",
+        "year": "1997",
+        "label": "Naxos",
+        "ean": "0730099606028"
+      }
+    ]
+  },
+  {
+    "id": "eliahu-inbal-2009",
+    "year": "2009",
+    "conductor": "Eliahu Inbal",
+    "roles": {
+      "Paul": "Stefan Vinke",
+      "Marie/Marietta": "Solveig Kringelborn",
+      "Frank": "Stephan Genz",
+      "Brigitta": "Christa Mayer",
+      "Juliette": "Eleonore Marguerre",
+      "Lucienne": "Julia Oesch",
+      "Gaston": "Gino Potente",
+      "Victorin": "Shi Yijie",
+      "Fritz": "Stephan Genz",
+      "Graf Albert": "Mathias Schulz"
+    },
+    "choirs": [
+      "Coro del Teatro la Fenice",
+      "Piccoli Cantori Veneziani"
+    ],
+    "orchestra": "Orchestre del Teatro la Fenice",
+    "venue": "Finnish National Opera",
+    "releases": [
+      {
+        "type": "dvd",
+        "year": "2011",
+        "label": "Dynamic",
+        "ean": "8007144336257"
+      }
+    ]
+  },
+  {
+    "id": "mikko-franc-2010",
+    "year": "2010",
+    "conductor": "Mikko Franck",
+    "roles": {
+      "Paul": "Klaus Florian Vogt",
+      "Marie/Marietta": "Camilla Nylund",
+      "Frank": "Markus Eiche",
+      "Brigitta": "Sari Nordqvist",
+      "Juliette": "Kaisa Ranta",
+      "Lucienne": "Melis Jaatinen",
+      "Gaston": "Antti Nieminen",
+      "Victorin": "Per-Hakan Precht",
+      "Fritz": "Markus Eiche",
+      "Graf Albert": "Juha Riihimäki"
+    },
+    "choirs": [
+      "Chorus of the Finnish National Opera",
+      "Children's Chorus of the Finnish National Opera"
+    ],
+    "orchestra": "Orchestra of the Finnish National Opera",
+    "venue": "Finnish National Opera",
+    "releases": [
+      {
+        "type": "dvd",
+        "year": "2013",
+        "label": "Opus Arte",
+        "ean": "0809478011217"
+      }
+    ]
+  },
+  {
+    "id": "jan-latham-koenig-2001",
+    "year": "2001",
+    "conductor": "Jan Latham-Koenig",
+    "roles": {
+      "Paul": "Torsten Kerl",
+      "Marie/Marietta": "Angela Denoke",
+      "Frank": "Yuri Batukov",
+      "Brigitta": "Birgitta Svendsen",
+      "Juliette": "Barbara Baier",
+      "Lucienne": "Julia Oesch",
+      "Gaston": "",
+      "Victorin": "Christian Baumgärtel",
+      "Fritz": "Stephan Genz",
+      "Graf Albert": ""
+    },
+    "choirs": [
+      "Chorus of the Opera National de Rhin"
+    ],
+    "orchestra": "Orchestre Philharmonique de Strasbourg",
+    "venue": "Opera National de Rhin",
+    "releases": [
+      {
+        "type": "dvd",
+        "year": "2001",
+        "label": "C&S Entertainment",
+        "ean": "4006680103426"
+      }
+    ]
+  },
+  {
+    "id": "donald-runnicles-2004",
+    "year": "2004",
+    "conductor": "Donald Runnicles",
+    "roles": {
+      "Paul": "Torsten Kerl",
+      "Marie/Marietta": "Angela Denoke",
+      "Frank": "Bo Skovhus",
+      "Brigitta": "Daniela Denschlag",
+      "Juliette": "Simina Ivan",
+      "Lucienne": "Stella Grigorian",
+      "Gaston": "Lukas Gaudernak",
+      "Victorin": "Eberhard F. Lorenz",
+      "Fritz": "Bo Skovhus",
+      "Graf Albert": "Michael Roider"
+    },
+    "choirs": [
+      "Konzertvereinigung",
+      "Wiener Philharmoniker"
+    ],
+    "orchestra": "Wiener Philharmoniker",
+    "venue": "Österreichischen Rundfunks Kleines Festspielhaus",
+    "releases": [
+      {
+        "type": "cd",
+        "year": "2015",
+        "label": "Orfeo",
+        "ean": "4011790634227"
+      }
+    ]
+  },
+  {
+    "id": "fritz-lehmann-1952",
+    "year": "1952",
+    "conductor": "Fritz Lehmann",
+    "roles": {
+      "Paul": "Karl Friedrich",
+      "Marie/Marietta": "Maud Cunitz",
+      "Frank": "Benno Kusche",
+      "Brigitta": "Lilian Benningsen",
+      "Juliette": "Margot Guilleaume",
+      "Lucienne": "Elenor Junker",
+      "Gaston": "Richard Holm",
+      "Victorin": "Richard Holm",
+      "Fritz": "Hans Braun",
+      "Graf Albert": "Josef Traxel"
+    },
+    "choirs": [
+      "Chor des Bayerischen Rundfunks"
+    ],
+    "orchestra": "Symphonieorchester des Bayerischen Rundfunks",
+    "venue": "?",
+    "releases": [
+      {
+        "type": "cd",
+        "year": "2003",
+        "label": "Walhall",
+        "ean": "4035122650044"
+      },
+      {
+        "type": "cd",
+        "year": "2012",
+        "label": "Myto Records",
+        "ean": "0080143903185"
+      }
+    ]
+  },
+  {
+    "id": "heinrich-hollreiser-1983",
+    "year": "1983",
+    "conductor": "Heinrich Hollreiser",
+    "roles": {
+      "Paul": "James King",
+      "Marie/Marietta": "Karan Armstrong",
+      "Frank": "William Murray",
+      "Brigitta": "Margit Neubauer",
+      "Juliette": "Sylvia Greenberg",
+      "Lucienne": "Ruthild Engert",
+      "Gaston": "",
+      "Victorin": "Donald Grobe",
+      "Fritz": "William Murray",
+      "Graf Albert": "David Knutson"
+    },
+    "choirs": [
+      "Chor der Deutschen Oper Berlin"
+    ],
+    "orchestra": "Orchester der Deutsche Oper Berlin",
+    "venue": "Deutsche oper Berlin",
+    "releases": [
+      {
+        "type": "dvd",
+        "year": "2012",
+        "label": "Arthaus Musik",
+        "ean": "0807280165692"
+      }
+    ]
+  }
+]

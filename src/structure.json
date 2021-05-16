@@ -1,0 +1,197 @@
+{
+  "acts": [
+    {
+      "name": "Act 1",
+      "id": "A1",
+      "scenes": [
+        {
+          "name": "Scene 1",
+          "id": "S1",
+          "cdTracks": [
+            {
+              "trackNo": 1,
+              "startsAt": 0,
+              "endsAt": 374
+            }
+          ]
+        },
+        {
+          "name": "Scene 2",
+          "id": "S2",
+          "cdTracks": [
+            {
+              "trackNo": 2,
+              "startsAt": 374,
+              "endsAt": 1047
+            }
+          ]
+        },
+        {
+          "name": "Scene 3",
+          "id": "S3",
+          "cdTracks": [
+            {
+              "trackNo": 3,
+              "startsAt": 1047,
+              "endsAt": 1170
+            }
+          ]
+        },
+        {
+          "name": "Scene 4",
+          "id": "S4",
+          "cdTracks": [
+            {
+              "trackNo": 4,
+              "startsAt": 1170,
+              "endsAt": 1254
+            }
+          ]
+        },
+        {
+          "name": "Scene 5",
+          "id": "S5",
+          "cdTracks": [
+            {
+              "trackNo": 5,
+              "startsAt": 1254,
+              "endsAt": 1532
+            },
+            {
+              "trackNo": 6,
+              "startsAt": 1530,
+              "endsAt": 2266
+            }
+          ]
+        },
+        {
+          "name": "Scene 6",
+          "id": "S6",
+          "cdTracks": [
+            {
+              "trackNo": 7,
+              "startsAt": 2266,
+              "endsAt": 2761
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Act 2",
+      "id": "A2",
+      "scenes": [
+        {
+          "name": "Prelude",
+          "id": "P",
+          "cdTracks": [
+            {
+              "trackNo": 8,
+              "startsAt": 2769,
+              "endsAt": 3107
+            }
+          ]
+        },
+        {
+          "name": "Scene 1",
+          "id": "S1",
+          "cdTracks": [
+            {
+              "trackNo": 9,
+              "startsAt": 3107,
+              "endsAt": 3591
+            }
+          ]
+        },
+        {
+          "name": "Scene 2",
+          "id": "S2",
+          "cdTracks": [
+            {
+              "trackNo": 10,
+              "startsAt": 3591,
+              "endsAt": 3734
+            }
+          ]
+        },
+        {
+          "name": "Scene 3",
+          "id": "S3",
+          "cdTracks": [
+            {
+              "trackNo": 11,
+              "startsAt": 3734,
+              "endsAt": 4184
+            },
+            {
+              "trackNo": 12,
+              "startsAt": 4184,
+              "endsAt": 4883
+            }
+          ]
+        },
+        {
+          "name": "Scene 4",
+          "id": "S4",
+          "cdTracks": [
+            {
+              "trackNo": 13,
+              "startsAt": 4883,
+              "endsAt": 5678
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Act 3",
+      "id": "A3",
+      "scenes": [
+        {
+          "name": "Prelude",
+          "id": "P",
+          "cdTracks": [
+            {
+              "trackNo": 14,
+              "startsAt": 5678,
+              "endsAt": 5834
+            }
+          ]
+        },
+        {
+          "name": "Scene 1",
+          "id": "S1",
+          "cdTracks": [
+            {
+              "trackNo": 15,
+              "startsAt": 5834,
+              "endsAt": 6155
+            }
+          ]
+        },
+        {
+          "name": "Scene 2",
+          "id": "S2",
+          "cdTracks": [
+            {
+              "trackNo": 16,
+              "startsAt": 6155,
+              "endsAt": 7640
+            }
+          ]
+        },
+        {
+          "name": "Scene 3",
+          "id": "S3",
+          "cdTracks": [
+            {
+              "trackNo": 17,
+              "startsAt": 7640,
+              "endsAt": 8228
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

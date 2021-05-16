@@ -1,0 +1,93 @@
+[
+  {
+    "dateOfPremiere": "1920-12-04",
+    "venueOfPremiere": "Stadttheater Hamburg",
+    "cityOfPremiere": "Hamburg",
+    "director": "",
+    "conductor": "Egon Pollak",
+    "soloists": {
+      "Paul": "Richard Schubert",
+      "Marie/Marietta": "Annie Münchow",
+      "Frank": "Josef Degler",
+      "Brigitta": "Maria Olszewska",
+      "Juliette": "Maria Jeritza",
+      "Lucienne": "Maria Olszewska",
+      "Gaston": "Richard Schubert",
+      "Victorin": "Richard Schubert",
+      "Fritz": "Josef Degler",
+      "Graf Albert": "Richard Schubert"
+    },
+    "choirs": [],
+    "orchestra": "",
+    "link": "https://en.wikipedia.org/wiki/Die_tote_Stadt#Roles"
+  },
+  {
+    "dateOfPremiere": "1920-12-04",
+    "venueOfPremiere": "Stadttheater Köln",
+    "cityOfPremiere": "Köln",
+    "director": "",
+    "conductor": "Otto Klemperer",
+    "soloists": {
+      "Paul": "Karl Schröder",
+      "Marie/Marietta": "Joanna Klemperer",
+      "Frank": "Karl Renner",
+      "Brigitta": "Katherina Rohr",
+      "Juliette": "Maria Jeritza",
+      "Lucienne": "Katherina Rohr",
+      "Gaston": "Karl Schröder",
+      "Victorin": "Karl Schröder",
+      "Fritz": "Karl Renner",
+      "Graf Albert": "Karl Schröder"
+    },
+    "choirs": [],
+    "orchestra": "",
+    "link": "https://en.wikipedia.org/wiki/Die_tote_Stadt#Roles"
+  },
+  {
+    "dateOfPremiere": "1921-01-10",
+    "venueOfPremiere": "Wiener Staatsoper",
+    "cityOfPremiere": "Vienna",
+    "director": "Alfred Roller, Johann Kautsky",
+    "conductor": "Franz Schalk",
+    "soloists": {
+      "Paul": "Karl Aagard-Oestvig",
+      "Marie/Marietta": "Maria Jeritza",
+      "Frank": "Hermann Wiedemann",
+      "Brigitta": "Hermine Kittel",
+      "Juliette": "Maria Rajdl",
+      "Lucienne": "Marie Hussa",
+      "Gaston": "Adolf Nemeth",
+      "Victorin": "Georg Maikl",
+      "Fritz": "Richard Mayr",
+      "Graf Albert": "Hermann Gallos"
+    },
+    "choirs": [],
+    "orchestra": "",
+    "link": "https://archiv.wiener-staatsoper.at/performances/29928"
+  },
+  {
+    "dateOfPremiere": "2018-09-30",
+    "venueOfPremiere": "Komische Oper Berlin",
+    "cityOfPremiere": "Berlin",
+    "director": "Robert Carsen",
+    "conductor": "Ainārs Rubiķis",
+    "soloists": {
+      "Paul": "Aleš Briscein",
+      "Marie/Marietta": "Sara Jakubiak",
+      "Frank": "Günter Papendell",
+      "Brigitta": "Maria Fiselier",
+      "Juliette": "Georgina Melville",
+      "Lucienne": "Marta Mika",
+      "Gaston": "?",
+      "Victorin": "Adrian Strooper",
+      "Fritz": "Günter Papendell",
+      "Graf Albert": "Ivan Turšić"
+    },
+    "choirs": [
+      "Chorsolisten der Komischen Oper Berlin",
+      "Kinderchor der Komischen Oper Berlin"
+    ],
+    "orchestra": "",
+    "link": "https://www.komische-oper-berlin.de/programm/a-z/die-tote-stadt/"
+  }
+]
