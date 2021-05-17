@@ -1,0 +1,11 @@
+{
+  "group": "Bruges",
+  "name": "Bells 1",
+  "id": "bruges-bells-1",
+  "description": "",
+  "occurrences": [
+    { "startsAt": 23, "endsAt": 27 },
+    { "startsAt": 811, "endsAt": 815 },
+    { "startsAt": 262, "endsAt": 265 }
+  ]
+}
