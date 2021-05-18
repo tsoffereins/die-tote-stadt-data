@@ -3,12 +3,5 @@
   "name": "Behutsam",
   "id": "bruges-behutsam",
   "description": "",
-  "occurrences": [
-    { "startsAt": 29, "endsAt": 32 },
-    { "startsAt": 1062, "endsAt": 1064 },
-    { "startsAt": 1308, "endsAt": 1309 },
-    { "startsAt": 3085, "endsAt": 3090 },
-    { "startsAt": 7622, "endsAt": 7636 },
-    { "startsAt": 7677, "endsAt": 7680 }
-  ]
+  "occurrences": []
 }
