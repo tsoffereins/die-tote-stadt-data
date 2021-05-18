@@ -5,7 +5,7 @@
     const vf = new Vex.Flow.Factory({
         renderer: {
             elementId: 'bruges-bells-2',
-            width: 420,
+            width: 422,
             height: 120
         }
     });

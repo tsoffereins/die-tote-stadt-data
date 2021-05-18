@@ -5,7 +5,7 @@
     const vf = new Vex.Flow.Factory({
         renderer: {
             elementId: 'bruges-vergangenheit',
-            width: 520,
+            width: 522,
             height: 120
         }
     });
