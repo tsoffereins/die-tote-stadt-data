@@ -8,7 +8,7 @@
     const vf = new Vex.Flow.Factory({
         renderer: {
             elementId: 'bruges-die-tote-stadt',
-            width: 282,
+            width: 422,
             height: 120
         }
     });
@@ -21,7 +21,7 @@
     system = vf.System({
         x: 0,
         y: 0,
-        width: 280,
+        width: 420,
         spaceBetweenStaves: 10
     });
 
