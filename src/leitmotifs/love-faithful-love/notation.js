@@ -8,7 +8,7 @@
     const vf = new Vex.Flow.Factory({
         renderer: {
             elementId: 'love-faithful-love',
-            width: 1442,
+            width: 1342,
             height: 120
         }
     });
@@ -179,12 +179,10 @@
         .setXShift(30);
 
     // Measure 6
-    score.set({ time: '4/4' });
-
     system = vf.System({
         x: 1180,
         y: 0,
-        width: 260,
+        width: 160,
         spaceBetweenStaves: 10
     });
 
@@ -192,23 +190,10 @@
         .addStave({
             voices: [
                 score.voice(
-                    score.notes(
-                        [
-                            'B4/q[id="n7"]',
-                            'B4/8[id="n8"]',
-                            'B4/8/r',
-                            'B4/h/r'
-                        ].join(',')
-                    )
+                    score.notes('B4/h.')
                 )
             ]
-        })
-        .addTimeSignature('4/4');
-
-    vf.Curve({
-        from: registry.getElementById('n7'),
-        to: registry.getElementById('n8')
-    });
+        });
 
     // Render the score
     vf.draw();
