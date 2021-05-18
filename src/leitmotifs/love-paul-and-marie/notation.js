@@ -97,7 +97,8 @@
                     score.notes(
                         [
                             'G5/h[id="n3"]',
-                            'G5/q[id="n4"]'
+                            'G5/q[id="n4"]',
+                            'B4/q/r'
                         ].join(',')
                     )
                 )
