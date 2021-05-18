@@ -7,7 +7,7 @@
     // Configure the canvas
     const vf = new Vex.Flow.Factory({
         renderer: {
-            elementId: 'theatre-diridon',
+            elementId: 'diridon',
             width: 1220,
             height: 120
         }
