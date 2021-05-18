@@ -29,14 +29,22 @@
         .addStave({
             voices: [
                 score.voice(
-                    score.notes(
-                        [
-                            'B4/h/r',
-                            'B4/q/r',
-                            'C5/8',
-                            'D5/8'
-                        ].join(',')
-                    )
+                    [
+                        score.notes(
+                            [
+                                'B4/h/r',
+                                'B4/q/r'
+                            ].join(',')
+                        ),
+                        score.beam(
+                            score.notes(
+                                [
+                                    'C5/8',
+                                    'D5/8'
+                                ].join(',')
+                            )
+                        )
+                    ].reduce((a, b) => a.concat(b))
                 )
             ]
         })
@@ -56,16 +64,26 @@
         .addStave({
             voices: [
                 score.voice(
-                    score.notes(
-                        [
-                            'E5/q',
-                            'D5/8',
-                            'C5/8',
-                            'B4/q',
-                            'C5/8',
-                            'D5/8'
-                        ].join(',')
-                    )
+                    [
+                        score.notes('E5/q'),
+                        score.beam(
+                            score.notes(
+                                [
+                                    'D5/8',
+                                    'C5/8'
+                                ].join(',')
+                            )
+                        ),
+                        score.notes('B4/q'),
+                        score.beam(
+                            score.notes(
+                                [
+                                    'C5/8',
+                                    'D5/8'
+                                ].join(',')
+                            )
+                        )
+                    ].reduce((a, b) => a.concat(b))
                 )
             ]
         });
@@ -82,15 +100,23 @@
         .addStave({
             voices: [
                 score.voice(
-                    score.notes(
-                        [
-                            'E5/q.',
-                            'G5/8',
-                            'A4/4',
-                            'B4/8',
-                            'C5/8'
-                        ].join(',')
-                    )
+                    [
+                        score.notes(
+                            [
+                                'E5/q.',
+                                'G5/8',
+                                'A4/4'
+                            ].join(',')
+                        ),
+                        score.beam(
+                            score.notes(
+                                [
+                                    'B4/8',
+                                    'C5/8'
+                                ].join(',')
+                            )
+                        )
+                    ].reduce((a, b) => a.concat(b))
                 )
             ]
         });
@@ -107,23 +133,46 @@
         .addStave({
             voices: [
                 score.voice(
-                    score.notes(
-                        [
-                            'B4/8.',
-                            'C5/16',
-                            'D5/8[id="n1"]',
-                            'E5/8',
-                            'F5/8.',
-                            'G5/16',
-                            'A5/8',
-                            'B5/8',
-                        ].join(',')
-                    )
+                    [
+                        score.beam(
+                            score.notes(
+                                [
+                                    'B4/8.',
+                                    'C5/16'
+                                ].join(',')
+                            )
+                        ),
+                        score.beam(
+                            score.notes(
+                                [
+                                    'D5/8[id="n1"]',
+                                    'E5/8'
+                                ].join(',')
+                            )
+                        ),
+                        score.beam(
+                            score.notes(
+                                [
+                                    'F5/8.',
+                                    'G5/16'
+                                ].join(',')
+                            )
+                        ),
+                        score.beam(
+                            score.notes(
+                                [
+                                    'A5/8',
+                                    'B5/8'
+                                ].join(',')
+                            )
+                        )
+                    ].reduce((a, b) => a.concat(b))
                 )
             ]
         });
 
-    registry.getElementById('n1').addAccidental(0, new Vex.Flow.Accidental('n'));
+    registry.getElementById('n1')
+        .addAccidental(0, new Vex.Flow.Accidental('n'));
 
     // Measure 5
     system = vf.System({
