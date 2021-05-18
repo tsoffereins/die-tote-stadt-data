@@ -18,7 +18,7 @@
     system = vf.System({
         x: 0,
         y: 0,
-        width: 260,
+        width: 420,
         spaceBetweenStaves: 10
     });
 
