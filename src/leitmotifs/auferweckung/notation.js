@@ -7,7 +7,7 @@
     // Configure the canvas
     const vf = new Vex.Flow.Factory({
         renderer: {
-            elementId: 'resurrection',
+            elementId: 'auferweckung',
             width: 522,
             height: 120
         }
