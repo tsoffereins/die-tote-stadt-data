@@ -7,7 +7,7 @@
     // Configure the canvas
     const vf = new Vex.Flow.Factory({
         renderer: {
-            elementId: 'bruges-die-tote-stadt',
+            elementId: 'die-tote-stadt',
             width: 422,
             height: 120
         }
