@@ -4,7 +4,7 @@
     // Configure the canvas
     const vf = new Vex.Flow.Factory({
         renderer: {
-            elementId: 'bruges-vergangenheit',
+            elementId: 'vergangenheit',
             width: 522,
             height: 120
         }

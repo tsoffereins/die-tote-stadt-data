@@ -1,7 +1,7 @@
 {
   "group": "Bruges",
   "name": "Vergangenheit",
-  "id": "bruges-vergangenheit",
+  "id": "vergangenheit",
   "description": "",
   "occurrences": [
     { "startsAt": 20,"endsAt": 23 },
