@@ -4,7 +4,7 @@
     // Configure the canvas
     const vf = new Vex.Flow.Factory({
         renderer: {
-            elementId: 'bruges-bells-1',
+            elementId: 'bells-1',
             width: 742,
             height: 160
         }

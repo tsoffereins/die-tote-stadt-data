@@ -1,7 +1,7 @@
 {
   "group": "Bruges",
   "name": "Bells 1",
-  "id": "bruges-bells-1",
+  "id": "bells-1",
   "description": "",
   "occurrences": [
     { "startsAt": 23, "endsAt": 27 },
