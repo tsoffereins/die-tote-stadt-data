@@ -7,7 +7,7 @@
     // Configure the canvas
     const vf = new Vex.Flow.Factory({
         renderer: {
-            elementId: 'marie-my-wife',
+            elementId: 'meine-gattin',
             width: 602,
             height: 160
         }
