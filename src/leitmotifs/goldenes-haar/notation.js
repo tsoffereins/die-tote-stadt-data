@@ -1,5 +1,5 @@
 (function () {
-    const { score, measure, notes, render } = new VF.Sheet({
+    const { score, measure, notes, beam, render } = new VF.Sheet({
         id: 'goldenes-haar',
         measureWidths: [260, 160]
     });

@@ -2,7 +2,8 @@
     const { score, measure, notes, render } = new VF.Sheet({
         id: 'bells-1',
         measureWidths: [440, 300],
-        height: 160
+        height: 160,
+        offsetY: 30
     });
 
     score.set({ time: '4/4' });

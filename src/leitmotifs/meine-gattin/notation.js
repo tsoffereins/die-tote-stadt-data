@@ -1,5 +1,5 @@
 (function () {
-    const { score, measure, notes, curve, render } = new VF.Sheet({
+    const { score, measure, notes, curve, tuplet, render } = new VF.Sheet({
         id: 'meine-gattin',
         measureWidths: [200, 200, 100],
         height: 160,
@@ -19,7 +19,8 @@
     // Measure 2
     measure()
         .addNotes([
-            tuplet(notes('E5/h[id="n2"]', 'Fb5/h[id="n3"]', 'Gb5/h[id="n4"]', { stem: 'up' })),
+            tuplet(notes('E5/h[id="n2"]', 'Fb5/h[id="n3"]', 'Gb5/h[id="n4"]', { stem: 'up' }))
+        ], [
             notes('E5/w[id="n5"]')
         ]);
 

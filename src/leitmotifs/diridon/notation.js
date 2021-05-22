@@ -46,7 +46,7 @@
     // Measure 5
     measure()
         .addNotes([
-            score.notes('G5/q', 'F5/q', 'E5/h')
+            notes('G5/q', 'F5/q', 'E5/h')
         ]);
 
     render();

@@ -1,7 +1,8 @@
 (function () {
     const { score, measure, notes, tuplet, beam, curve, render } = new VF.Sheet({
         id: 'traum-der-wiederkehr',
-        measureWidths: [400, 220, 240]
+        measureWidths: [400, 220, 240],
+        offsetY: 20
     });
 
     score.set({ time: '2/2' });

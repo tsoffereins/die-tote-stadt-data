@@ -1,5 +1,5 @@
 (function () {
-    const { score, measure, notes, tuplet, render } = new VF.Sheet({
+    const { score, measure, notes, tuplet, curve, render } = new VF.Sheet({
         id: 'gluck-das-mir-verblieb',
         measureWidths: [340, 300, 220, 280]
     });
