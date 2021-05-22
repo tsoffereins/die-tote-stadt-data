@@ -1,5 +1,5 @@
 (function () {
-    const { score, measure, notes, find, render } = new VF.Sheet({
+    const { score, measure, notes, find, beam, render } = new VF.Sheet({
         id: 'diridon',
         measureWidths: [300, 220, 220, 260, 220]
     });
