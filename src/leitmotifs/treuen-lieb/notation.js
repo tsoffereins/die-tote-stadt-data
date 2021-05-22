@@ -1,200 +1,69 @@
 (function () {
-    let system;
-
-    const registry = new Vex.Flow.Registry();
-    Vex.Flow.Registry.enableDefaultRegistry(registry);
-
-    // Configure the canvas
-    const vf = new Vex.Flow.Factory({
-        renderer: {
-            elementId: 'treuen-lieb',
-            width: 1342,
-            height: 120
-        }
+    const { score, measure, notes, tuplet, curve, find, render } = new VF.Sheet({
+        id: 'treuen-lieb',
+        measureWidths: [280, 180, 220, 240, 260, 160]
     });
 
-    // Setup the score
-    const score = vf.EasyScore();
     score.set({ time: '4/4' });
 
     // Measure 1
-    system = vf.System({
-        x: 0,
-        y: 0,
-        width: 280,
-        spaceBetweenStaves: 10
-    });
-
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    score.notes(
-                        [
-                            'B4/h/r',
-                            'B4/q[id="n1"]',
-                            'C#5/q'
-                        ].join(',')
-                    )
-                )
-            ]
-        })
+    measure()
+        .addNotes([
+            notes('B4/h/r', 'B4/q[id="n1"]', 'C#5/q')
+        ])
         .addClef('treble')
         .addTimeSignature('4/4');
 
-    registry.getElementById('n1')
-        .addAccidental(0, new Vex.Flow.Accidental('n'));
+    find('n1').addAccidental(0, new VF.Accidental('n'));
 
     // Measure 2
-    system = vf.System({
-        x: 280,
-        y: 0,
-        width: 180,
-        spaceBetweenStaves: 10
-    });
+    measure()
+        .addNotes([
+            notes('D#5/h[id="n1"]'),
+            tuplet(notes('D5/h[id="n2"]', 'D5/q'), { num_notes: 3 })
+        ]);
 
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    [
-                        score.notes('D#5/h[id="n1"]'),
-                        score.tuplet(
-                            score.notes(
-                                [
-                                    'D5/h[id="n2"]',
-                                    'D5/q'
-                                ].join(',')
-                            ),
-                            { num_notes: 3 }
-                        )
-                    ].reduce((a, b) => a.concat(b))
-                )
-            ]
-        });
-
-    vf.Curve({
-        from: registry.getElementById('n1'),
-        to: registry.getElementById('n2')
-    });
+    curve('n1', 'n2');
 
     // Measure 3
-    system = vf.System({
-        x: 460,
-        y: 0,
-        width: 220,
-        spaceBetweenStaves: 10
-    });
-
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    [
-                        score.tuplet(
-                            score.notes(
-                                [
-                                    'D#5/q',
-                                    'E5/q',
-                                    'F#5/q'
-                                ].join(',')
-                            )
-                        ),
-                        score.notes(
-                            [
-                                'E5/q.',
-                                'D5/8'
-                            ].join(',')
-                        )
-                    ].reduce((a, b) => a.concat(b))
-                )
-            ]
-        });
+    measure()
+        .addNotes([
+            tuplet(notes('D#5/q', 'E5/q', 'F#5/q')),
+            notes('E5/q.', 'D5/8')
+        ]);
 
     // Measure 4
-    system = vf.System({
-        x: 680,
-        y: 0,
-        width: 240,
-        spaceBetweenStaves: 10
-    });
+    measure()
+        .addNotes([
+            notes('D#5/q', 'C#5/h[id="n3"]', 'C5/8[id="n4"]', 'C5/8')
+        ]);
 
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    score.notes(
-                        [
-                            'D#5/q',
-                            'C#5/h[id="n3"]',
-                            'C5/8[id="n4"]',
-                            'C5/8',
-                        ].join(',')
-                    )
-                )
-            ]
-        });
-
-    vf.Curve({
-        from: registry.getElementById('n3'),
-        to: registry.getElementById('n4')
-    });
+    curve('n3', 'n4');
 
     // Measure 5
     score.set({ time: '3/4' });
 
-    system = vf.System({
-        x: 920,
-        y: 0,
-        width: 260,
-        spaceBetweenStaves: 10
-    });
-
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    score.notes(
-                        [
-                            'C5/q[id="n5"]',
-                            'B4/h[id="n6"]'
-                        ].join(',')
-                    )
-                )
-            ]
-        })
+    measure()
+        .addNotes([
+            notes('C5/q[id="n5"]', 'B4/h[id="n6"]')
+        ])
         .addTimeSignature('3/4');
 
-    const graceNotes = new Vex.Flow.GraceNoteGroup([
-        new Vex.Flow.GraceNote({ keys: ['C#/5'], duration: '16' })
-            .addAccidental(0, new Vex.Flow.Accidental("#")),
-        new Vex.Flow.GraceNote({ keys: ['D#/5'], duration: '16' })
-            .addAccidental(0, new Vex.Flow.Accidental("#"))
+    const graceNotes = new VF.GraceNoteGroup([
+        new VF.GraceNote({ keys: ['C#/5'], duration: '16' })
+            .addAccidental(0, new VF.Accidental("#")),
+        new VF.GraceNote({ keys: ['D#/5'], duration: '16' })
+            .addAccidental(0, new VF.Accidental("#"))
     ], true);
 
-    registry.getElementById('n5')
-        .addModifier(0, graceNotes.beamNotes());
-
-    registry.getElementById('n6')
-        .setXShift(30);
+    find('n5').addModifier(0, graceNotes.beamNotes());
+    find('n6').setXShift(30);
 
     // Measure 6
-    system = vf.System({
-        x: 1180,
-        y: 0,
-        width: 160,
-        spaceBetweenStaves: 10
-    });
+    measure()
+        .addNotes([
+            notes('B4/h.')
+        ]);
 
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    score.notes('B4/h.')
-                )
-            ]
-        });
-
-    // Render the score
-    vf.draw();
+    render();
 })();
