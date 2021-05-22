@@ -1,71 +1,25 @@
 (function () {
-    let system;
-
-    // Configure the canvas
-    const vf = new Vex.Flow.Factory({
-        renderer: {
-            elementId: 'goldenes-haar',
-            width: 422,
-            height: 120
-        }
+    const { score, measure, notes, render } = new VF.Sheet({
+        id: 'goldenes-haar',
+        measureWidths: [260, 160]
     });
 
-    // Setup the score
-    const score = vf.EasyScore();
     score.set({ time: '3/4' });
 
     // Measure 1
-    system = vf.System({
-        x: 0,
-        y: 0,
-        width: 260,
-        spaceBetweenStaves: 10
-    });
-
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    [
-                        score.notes(
-                            [
-                                'B5/q',
-                                'F#5/q'
-                            ].join(',')
-                        ),
-                        score.beam(
-                            score.notes(
-                                [
-                                    'C#5/8.',
-                                    'G#4/16'
-                                ].join(','),
-                                { stem: 'down' }
-                            )
-                        )
-                    ].reduce((a, b) => a.concat(b))
-                )
-            ]
-        })
+    measure()
+        .addNotes([
+            notes('B5/q', 'F#5/q'),
+            beam(notes('C#5/8.', 'G#4/16', { stem: 'down' }))
+        ])
         .addClef('treble')
         .addTimeSignature('3/4');
 
     // Measure 2
-    system = vf.System({
-        x: 260,
-        y: 0,
-        width: 160,
-        spaceBetweenStaves: 10
-    });
+    measure()
+        .addNotes([
+            notes('D#5/h.')
+        ]);
 
-    system
-        .addStave({
-            voices: [
-                score.voice(
-                    score.notes('D#5/h.')
-                )
-            ]
-        });
-
-    // Render the score
-    vf.draw();
+    render();
 })();
