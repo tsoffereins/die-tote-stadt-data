@@ -9,10 +9,7 @@
     // Measure 1
     measure()
         .addNotes([
-            notes(
-                'Eb5/h.',
-                'Bb4/q'
-            )
+            notes('Eb5/h.', 'Bb4/q')
         ])
         .addClef('treble')
         .addTimeSignature('4/4');
@@ -20,21 +17,13 @@
     // Measure 2
     measure()
         .addNotes([
-            notes(
-                'Ab4/q',
-                'G4/q',
-                'F4/q',
-                'Eb4/q'
-            )
+            notes('Ab4/q', 'G4/q', 'F4/q', 'Eb4/q')
         ]);
 
     // Measure 3
     measure()
         .addNotes([
-            notes(
-                'F4/h.',
-                'B4/q/r'
-            )
+            notes('F4/h.', 'B4/q/r')
         ]);
 
     render();
