@@ -36,12 +36,12 @@
     measure()
         .addNotes([
             beam(notes('B4/8.', 'C5/16')),
-            beam(notes('D5/8[id="n1"]', 'E5/8')),
+            beam(notes('D5/8/#1', 'E5/8')),
             beam(notes('F5/8.', 'G5/16')),
             beam(notes('A5/8', 'B5/8'))
         ]);
 
-    find('n1').addAccidental(0, new Vex.Flow.Accidental('n'));
+    find(1).addAccidental(0, new Vex.Flow.Accidental('n'));
 
     // Measure 5
     measure()

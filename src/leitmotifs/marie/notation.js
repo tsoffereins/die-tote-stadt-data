@@ -15,7 +15,7 @@
         .addClef('treble')
         .addTimeSignature('2/2');
 
-    curve('n1', 'n2');
+    curve(1, 2);
 
     // Measure 2
     measure()
@@ -24,7 +24,7 @@
             tuplet(notes('Ab4/q/#n4', 'Bb4/q.', 'C5/8'), { num_notes: 3 })
         ]);
 
-    curve('n3', 'n4');
+    curve(3, 4);
 
     // Measure 3
     measure()

@@ -32,11 +32,11 @@
     // Measure 4
     measure()
         .addNotes([
-            tuplet(notes('B4/8', 'A4/8', 'B4/8[id="n1"]')),
-            notes('B4/h[id="n2"]')
+            tuplet(notes('B4/8', 'A4/8', 'B4/8/#1')),
+            notes('B4/h/#2')
         ]);
 
-    curve('n1', 'n2');
+    curve(1, 2);
 
     render()
 })();

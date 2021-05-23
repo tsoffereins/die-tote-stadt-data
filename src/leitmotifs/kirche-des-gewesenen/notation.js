@@ -17,25 +17,25 @@
     // Measure 2
     measure()
         .addNotes([
-            notes('G#4/h.[id="n1"]')
+            notes('G#4/h./#1')
         ]);
 
     // Measure 3
     measure()
         .addNotes([
-            notes('G4/8[id="n2"]', 'A#4/q', 'F#4/8', 'C#5/q[id="n3"]')
+            notes('G4/8/#2', 'A#4/q', 'F#4/8', 'C#5/q/#3')
         ]);
 
-    curve('n1', 'n2');
+    curve(1, 2);
 
     // Measure 4
     measure()
         .addNotes([
-            notes('C#5/h[id="n4"]', 'C#5/8[id="n5"]', 'C#4/8')
+            notes('C#5/h/#4', 'C#5/8/#5', 'C#4/8')
         ]);
 
-    curve('n2', 'n4');
-    curve('n4', 'n5');
+    curve(2, 4);
+    curve(4, 5);
 
     // Measure 4
     measure()

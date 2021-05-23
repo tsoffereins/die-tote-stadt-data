@@ -13,11 +13,11 @@
             tuplet(
                 notes('E5/q'),
                 beam(notes('Fb5/8', 'E5/8')),
-                notes('Gb5/q[id="n1"]'),
+                notes('Gb5/q/#1'),
                 { num_notes: 3 }
             ),
             tuplet(
-                notes('Gb5/q[id="n2"]'),
+                notes('Gb5/q/#2'),
                 beam(notes('A5/8', 'Bb5/8', 'Cb6/8', 'D6/8')),
                 { num_notes: 3 }
             )
@@ -25,25 +25,25 @@
         .addClef('bass')
         .addTimeSignature('2/2');
 
-    curve('n1', 'n2');
+    curve(1, 2);
 
     // Measure 2
     measure()
         .addNotes([
-            notes('E6/h[id="n3"]'),
-            notes('E6/q[id="n4"]'),
+            notes('E6/h/#3'),
+            notes('E6/q/#4'),
             tuplet(beam(notes('D6/8', 'E6/8', 'D6/8')))
         ]);
 
-    curve('n3', 'n4');
+    curve(3, 4);
 
     // Measure 3
     measure()
         .addNotes([
-            notes('Cb6/h[id="n5"]', 'Cb6/8[id="n6"]', 'B4/8/r', 'B4/q/r')
+            notes('Cb6/h/#5', 'Cb6/8/#6', 'B4/8/r', 'B4/q/r')
         ]);
 
-    curve('n5', 'n6');
+    curve(5, 6);
 
     render();
 })();

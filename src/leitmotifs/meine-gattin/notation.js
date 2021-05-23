@@ -11,7 +11,7 @@
     // Measure 1
     measure()
         .addNotes([
-            notes('B4/h/r', 'E5/h[id="n1"]')
+            notes('B4/h/r', 'E5/h/#1')
         ])
         .addClef('bass')
         .addTimeSignature('4/4');
@@ -19,13 +19,13 @@
     // Measure 2
     measure()
         .addNotes([
-            tuplet(notes('E5/h[id="n2"]', 'Fb5/h[id="n3"]', 'Gb5/h[id="n4"]', { stem: 'up' }))
+            tuplet(notes('E5/h/#2', 'Fb5/h/#3', 'Gb5/h/#4', { stem: 'up' }))
         ], [
-            notes('E5/w[id="n5"]')
+            notes('E5/w/#5')
         ]);
 
-    curve('n1', 'n2', { invert: true });
-    curve('n1', 'n5', { invert: true });
+    curve(1, 2, { invert: true });
+    curve(1, 5, { invert: true });
 
     // Measure 3
     measure()
@@ -33,9 +33,9 @@
              notes('(E5 F5 G5 B5 D6)/w')
         ]);
 
-    curve('n3');
-    curve('n4', { invert: true });
-    curve('n5', { invert: true });
+    curve(3);
+    curve(4, { invert: true });
+    curve(5, { invert: true });
 
     render();
 })();

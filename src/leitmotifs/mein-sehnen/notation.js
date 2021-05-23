@@ -18,32 +18,32 @@
     // Measure 2
     measure()
         .addNotes([
-            notes('A5/q', 'G5/h[id="n1"]')
+            notes('A5/q', 'G5/h/#1')
         ]);
 
     // Measure 3
     measure()
         .addNotes([
-            notes('G5/8[id="n2"]', 'B4/8/r', 'E5/h[id="n3"]')
+            notes('G5/8/#2', 'B4/8/r', 'E5/h/#3')
         ]);
 
-    curve('n1', 'n2');
+    curve(1, 2);
 
-    find('n3').addAccidental(0, new VF.Accidental('n'));
+    find(3).addAccidental(0, new VF.Accidental('n'));
 
     // Measure 4
     measure()
         .addNotes([
-            notes('B5/q', 'A5/h[id="n4"]')
+            notes('B5/q', 'A5/h/#4')
         ]);
 
     // Measure 5
     measure()
         .addNotes([
-            notes('A5/q[id="n5"]', 'F5/h')
+            notes('A5/q/#5', 'F5/h')
         ]);
 
-    curve('n4', 'n5');
+    curve(4, 5);
 
     // Measure 6
     measure()

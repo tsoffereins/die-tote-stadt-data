@@ -18,30 +18,30 @@
     // Measure 2
     measure()
         .addNotes([
-            notes('G5/8.', 'E5/16', 'D5/q[id="n1"]')
+            notes('G5/8.', 'E5/16', 'D5/q/#1')
         ]);
 
     // Measure 3
     measure()
         .addNotes([
-            notes('D5/q[id="n2"]', 'D5/8', 'E5/8')
+            notes('D5/q/#2', 'D5/8', 'E5/8')
         ]);
 
-    curve('n1', 'n2');
+    curve(1, 2);
 
     // Measure 4
     measure()
         .addNotes([
-            notes('G5/8.', 'E5/16', 'D5/q[id="n3"]')
+            notes('G5/8.', 'E5/16', 'D5/q/#3')
         ]);
 
     // Measure 5
     measure()
         .addNotes([
-            notes('D5/q[id="n4"]', 'D5/8', 'E5/8')
+            notes('D5/q/#4', 'D5/8', 'E5/8')
         ]);
 
-    curve('n3', 'n4');
+    curve(3, 4);
 
     // Measure 6
     measure()
