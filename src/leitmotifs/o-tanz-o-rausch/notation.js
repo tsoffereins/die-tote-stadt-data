@@ -1,6 +1,6 @@
 (function () {
     const { score, measure, notes, tuplet, beam, curve, articulate, render } = new VF.Sheet({
-        id: 'tanzen',
+        id: 'o-tanz-o-rausch',
         measureWidths: [200, 120, 160, 160, 160]
     });
 
