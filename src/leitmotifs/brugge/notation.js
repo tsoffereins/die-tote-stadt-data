@@ -1,16 +1,14 @@
 (function () {
-    const { score, measure, notes, tuplet, beam, curve, render } = new VF.Sheet({
+    const { measure, notes, tuplet, beam, curve, render } = new VF.Sheet({
         id: 'brugge',
-        measureWidths: [320, 120, 240, 120, 240, 120, 220, 220, 220, 220, 120, 180],
+        measureWidths: [300, 120, 240, 120, 240, 120, 220, 220, 220, 220, 120, 100],
         height: 140
     });
 
-    score.set({ time: '2/2' });
-
     // Measure 1
-    measure()
+    measure('5/8')
         .addNotes([
-            notes('B4/q/r', 'B4/8/r', 'D4/8', 'F4/q/#1', 'F4/8/#2', 'B4/8/r')
+            notes('D4/8', 'F4/q/#1', 'F4/8/#2', 'B4/8/r')
         ])
         .addClef('treble')
         .addKeySignature('F#')
@@ -19,7 +17,7 @@
     curve(1, 2);
 
     // Measure 2
-    measure()
+    measure('2/2')
         .addNotes([
             notes('C4/w/#3')
         ]);
@@ -94,10 +92,10 @@
             notes('A3/w/#17')
         ]);
 
-    // Measure 13
-    measure()
+    // Measure 12
+    measure('1/4')
         .addNotes([
-            notes('A3/q/#18', 'B4/q/r', 'B4/h/r')
+            notes('A3/q/#18')
         ]);
 
     curve(17, 18);
