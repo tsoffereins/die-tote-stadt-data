@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, beam, articulate, find, render } = new VF.Sheet({
+    const { measure, notes, beam, articulate, find, render } = new VF.Sheet({
         id: 'tanzerin',
         measureWidths: [320, 220, 220, 220]
     });
 
-    score.set({ time: '6/8' });
-
     // Measure 1
-    measure()
+    measure('6/8')
         .addNotes([
             beam(notes('B#4/8/#1', 'D5/8')),
             notes(

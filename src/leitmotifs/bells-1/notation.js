@@ -1,15 +1,13 @@
 (function () {
-    const { score, measure, notes, render } = new VF.Sheet({
+    const { measure, notes, render } = new VF.Sheet({
         id: 'bells-1',
         measureWidths: [440, 300],
         height: 160,
         offsetY: 30
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('4/4')
         .addNotes([
             notes(
                 'B5/8/r',

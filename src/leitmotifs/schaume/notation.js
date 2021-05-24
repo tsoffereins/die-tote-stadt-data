@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, curve, render } = new VF.Sheet({
+    const { measure, notes, curve, render } = new VF.Sheet({
         id: 'schaume',
         measureWidths: [240, 200, 200, 200, 200, 200, 160, 200]
     });
 
-    score.set({ time: '2/4' });
-
     // Measure 1
-    measure()
+    measure('2/4')
         .addNotes([
             notes('B4/q/r', 'D5/8', 'E5/8')
         ])

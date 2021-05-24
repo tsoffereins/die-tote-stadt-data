@@ -1,15 +1,13 @@
 (function () {
-    const { score, measure, notes, tuplet, beam, articulate, render } = new VF.Sheet({
+    const { measure, notes, tuplet, beam, articulate, render } = new VF.Sheet({
         id: 'marietta',
         measureWidths: [400, 200],
         height: 140,
         offsetY: 15
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('4/4')
         .addNotes([
             tuplet(
                 notes(
@@ -34,9 +32,7 @@
     articulate([1, 2, 3, 4, 5], 'a>');
 
     // Measure 2
-    score.set({ time: '2/4' });
-
-    measure()
+    measure('2/4')
         .addNotes([
             tuplet(
                 beam(notes('F#4/8/#6', 'C#5/8/#7', { stem: 'down' })),

@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, beam, render } = new VF.Sheet({
+    const { measure, notes, beam, render } = new VF.Sheet({
         id: 'goldenes-haar',
         measureWidths: [260, 160]
     });
 
-    score.set({ time: '3/4' });
-
     // Measure 1
-    measure()
+    measure('3/4')
         .addNotes([
             notes('B5/q', 'F#5/q'),
             beam(notes('C#5/8.', 'G#4/16', { stem: 'down' }))

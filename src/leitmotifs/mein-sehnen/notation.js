@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, curve, find, render } = new VF.Sheet({
+    const { measure, notes, curve, find, render } = new VF.Sheet({
         id: 'mein-sehnen',
         measureWidths: [220, 120, 120, 120, 120, 160, 120]
     });
 
-    score.set({ time: '3/4' });
-
     // Measure 1
-    measure()
+    measure('3/4')
         .addNotes([
             notes('B4/q/r', 'B4/q/r', 'F5/q')
         ])

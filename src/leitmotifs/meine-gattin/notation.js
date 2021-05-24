@@ -1,15 +1,13 @@
 (function () {
-    const { score, measure, notes, curve, tuplet, render } = new VF.Sheet({
+    const { measure, notes, curve, tuplet, render } = new VF.Sheet({
         id: 'meine-gattin',
         measureWidths: [200, 200, 100],
         height: 160,
         offsetY: 20
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('4/4')
         .addNotes([
             notes('B4/h/r', 'E5/h/#1')
         ])

@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, tuplet, curve, render } = new VF.Sheet({
+    const { measure, notes, tuplet, curve, render } = new VF.Sheet({
         id: 'gluck-das-mir-verblieb',
         measureWidths: [340, 300, 220, 280]
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('4/4')
         .addNotes([
             notes('B4/q', 'C5/h', 'A4/8.', 'B4/16')
         ])
@@ -15,9 +13,7 @@
         .addTimeSignature('4/4');
 
     // Measure 2
-    score.set({ time: '3/4' });
-
-    measure()
+    measure('3/4')
         .addNotes([
             notes('G4/h', 'A4/8.', 'B4/16')
         ])

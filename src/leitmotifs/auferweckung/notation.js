@@ -1,18 +1,13 @@
 (function () {
-    const { score, measure, notes, find, render } = new VF.Sheet({
+    const {  measure, notes, find, render } = new VF.Sheet({
         id: 'auferweckung',
         measureWidths: [240, 280]
     });
 
-    score.set({ time: '3/4' });
-
     // Measure 1
-    measure()
+    measure('3/4')
         .addNotes([
-            notes(
-                'B4/h/r',
-                '(C5 D5 F#5 A5 D6)/4/#1'
-            )
+            notes('B4/h/r', '(C5 D5 F#5 A5 D6)/4/#1')
         ])
         .addClef('treble')
         .addKeySignature('Bb')

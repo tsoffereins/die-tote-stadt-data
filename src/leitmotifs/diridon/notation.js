@@ -1,15 +1,12 @@
 (function () {
-    const { score, measure, notes, find, beam, render } = new VF.Sheet({
+    const { measure, notes, find, beam, render } = new VF.Sheet({
         id: 'diridon',
         measureWidths: [300, 220, 220, 260, 220]
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('1/4')
         .addNotes([
-            notes('B4/h/r', 'B4/q/r'),
             beam(notes('C5/8', 'D5/8'))
         ])
         .addClef('treble')
@@ -17,7 +14,7 @@
         .addTimeSignature('4/4');
 
     // Measure 2
-    measure()
+    measure('4/4')
         .addNotes([
             notes('E5/q'),
             beam(notes('D5/8', 'C5/8')),

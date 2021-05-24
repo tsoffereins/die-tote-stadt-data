@@ -1,22 +1,20 @@
 (function () {
-    const { score, measure, notes, tuplet, beam, curve, articulate, render } = new VF.Sheet({
+    const { measure, notes, tuplet, beam, curve, articulate, render } = new VF.Sheet({
         id: 'o-tanz-o-rausch',
         measureWidths: [200, 120, 160, 160, 160]
     });
 
-    score.set({ time: '3/4' });
-
     // Measure 1
-    measure()
+    measure('2/4')
         .addNotes([
-            notes('B4/q/r', 'B3/h')
+            notes('B3/h')
         ])
         .addClef('bass')
         .addKeySignature('E')
         .addTimeSignature('3/4');
 
     // Measure 2
-    measure()
+    measure('3/4')
         .addNotes([
             tuplet(
                 notes('C4/q/#1'),

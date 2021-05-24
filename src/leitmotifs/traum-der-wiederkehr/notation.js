@@ -1,14 +1,12 @@
 (function () {
-    const { score, measure, notes, tuplet, beam, curve, render } = new VF.Sheet({
+    const { measure, notes, tuplet, beam, curve, render } = new VF.Sheet({
         id: 'traum-der-wiederkehr',
         measureWidths: [400, 220, 240],
         offsetY: 20
     });
 
-    score.set({ time: '2/2' });
-
     // Measure 1
-    measure()
+    measure('2/2')
         .addNotes([
             tuplet(
                 notes('E5/q'),

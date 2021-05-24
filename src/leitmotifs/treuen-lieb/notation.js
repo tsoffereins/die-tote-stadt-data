@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, tuplet, curve, find, render } = new VF.Sheet({
+    const { measure, notes, tuplet, curve, find, render } = new VF.Sheet({
         id: 'treuen-lieb',
         measureWidths: [280, 180, 220, 240, 260, 160]
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('4/4')
         .addNotes([
             notes('B4/h/r', 'B4/q/#1', 'C#5/q')
         ])
@@ -41,9 +39,7 @@
     curve(3, 4);
 
     // Measure 5
-    score.set({ time: '3/4' });
-
-    measure()
+    measure( '3/4')
         .addNotes([
             notes('C5/q/#5', 'B4/h/#6')
         ])

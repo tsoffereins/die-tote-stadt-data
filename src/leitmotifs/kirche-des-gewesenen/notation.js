@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, curve, render } = new VF.Sheet({
+    const { measure, notes, curve, render } = new VF.Sheet({
         id: 'kirche-des-gewesenen',
         measureWidths: [160, 120, 240, 220, 160]
     });
 
-    score.set({ time: '3/4' });
-
     // Measure 1
-    measure()
+    measure('3/4')
         .addNotes([
             notes('C#5/h.')
         ])

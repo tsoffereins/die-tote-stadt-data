@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, tuplet, curve, render } = new VF.Sheet({
+    const { measure, notes, tuplet, curve, render } = new VF.Sheet({
         id: 'marie',
         measureWidths: [280, 300, 260]
     });
 
-    score.set({ time: '2/2' });
-
     // Measure 1
-    measure()
+    measure('2/2')
         .addNotes([
             tuplet(notes('F4/h', 'Eb4/q/#n1'), { num_notes: 3 }),
             tuplet(notes('E4/q/#n2', 'Db4/q', 'E4/q'))

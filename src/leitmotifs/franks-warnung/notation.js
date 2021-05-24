@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, beam, curve, render } = new VF.Sheet({
+    const { measure, notes, beam, curve, render } = new VF.Sheet({
         id: 'franks-warnung',
         measureWidths: [260, 300, 300, 260]
     });
 
-    score.set({ time: '6/8' });
-
     // Measure 1
-    measure()
+    measure('6/8')
         .addNotes([
             notes('B4/8/r'),
             beam(notes('Ab3/8.', 'Gb4/16')),

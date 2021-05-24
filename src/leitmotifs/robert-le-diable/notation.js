@@ -1,14 +1,12 @@
 (function () {
-    const { score, measure, notes, beam, articulate, render } = new VF.Sheet({
+    const { measure, notes, beam, articulate, render } = new VF.Sheet({
         id: 'robert-le-diable',
         measureWidths: [220, 160, 260, 220],
         offsetY: 5
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('4/4')
         .addNotes([
              notes('C#6/w')
         ])

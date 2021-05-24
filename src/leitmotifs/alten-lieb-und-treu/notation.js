@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, render } = new VF.Sheet({
+    const { measure, notes, render } = new VF.Sheet({
         id: 'alten-lieb-und-treu',
         measureWidths: [240, 200, 200]
     });
 
-    score.set({ time: '4/4' });
-
     // Measure 1
-    measure()
+    measure('4/4')
         .addNotes([
             notes('Eb5/h.', 'Bb4/q')
         ])
@@ -21,9 +19,9 @@
         ]);
 
     // Measure 3
-    measure()
+    measure('3/4')
         .addNotes([
-            notes('F4/h.', 'B4/q/r')
+            notes('F4/h.')
         ]);
 
     render();

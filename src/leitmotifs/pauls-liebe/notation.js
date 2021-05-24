@@ -1,13 +1,11 @@
 (function () {
-    const { score, measure, notes, beam, curve, render } = new VF.Sheet({
+    const { measure, notes, beam, curve, render } = new VF.Sheet({
         id: 'pauls-liebe',
         measureWidths: [320, 180, 180]
     });
 
-    score.set({ time: '2/2' });
-
     // Measure 1
-    measure()
+    measure('2/2')
         .addNotes([
                 beam(notes('G4/8', 'Ab4/16', 'Bb4/16', { stem: 'up' })),
                 notes('A4/q.', 'G4/8', 'B4/q/#1')
