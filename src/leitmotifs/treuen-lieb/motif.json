@@ -3,5 +3,10 @@
   "name": "Treuen Lieb",
   "id": "treuen-lieb",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 1607, "endsAt": 1632 },
+    { "startsAt": 2384, "endsAt": 2419 },
+    { "startsAt": 2537, "endsAt": 2570 },
+    { "startsAt": 7942, "endsAt": 7956 }
+  ]
 }
