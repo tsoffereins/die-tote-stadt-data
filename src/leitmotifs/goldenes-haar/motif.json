@@ -3,5 +3,19 @@
   "name": "Goldenes Haar",
   "id": "goldenes-haar",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 166, "endsAt": 174 },
+    { "startsAt": 566, "endsAt": 573 },
+    { "startsAt": 652, "endsAt": 664 },
+    { "startsAt": 721, "endsAt": 723 },
+    { "startsAt": 802, "endsAt": 807 },
+    { "startsAt": 1091, "endsAt": 1101 },
+    { "startsAt": 1143, "endsAt": 1170 },
+    { "startsAt": 1344, "endsAt": 1347 },
+    { "startsAt": 2820, "endsAt": 2840 },
+    { "startsAt": 7591, "endsAt": 7599 },
+    { "startsAt": 7689, "endsAt": 7716 },
+    { "startsAt": 7735, "endsAt": 7751 },
+    { "startsAt": 7770, "endsAt": 7775 }
+  ]
 }
