@@ -3,5 +3,11 @@
   "name": "Franks Warnung",
   "id": "franks-warnung",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 854, "endsAt": 902 },
+    { "startsAt": 995, "endsAt": 1005 },
+    { "startsAt": 5803, "endsAt": 5820 },
+    { "startsAt": 7851, "endsAt": 7863 },
+    { "startsAt": 7872, "endsAt": 7883 }
+  ]
 }
