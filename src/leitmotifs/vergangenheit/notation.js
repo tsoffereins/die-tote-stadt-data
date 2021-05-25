@@ -15,7 +15,7 @@
     // Measure 2
     measure('4/4')
         .addNotes([
-            notes('G#4/h/#1', 'G#4/q/#2', 'G#4/8/#3'),
+            notes('G#4/h/#1', 'G4/q/#2', 'G4/8/#3'),
             beam(notes('B4/16', 'F#4/16', { stem: 'up' }))
         ]);
 

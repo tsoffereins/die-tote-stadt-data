@@ -38,7 +38,7 @@
     // Measure 3
     measure()
         .addNotes([
-            notes('Cb6/h/#5', 'Cb6/8/#6', 'B4/8/r', 'B4/q/r')
+            notes('Cb6/h/#5', 'C6/8/#6', 'B4/8/r', 'B4/q/r')
         ]);
 
     curve(5, 6);

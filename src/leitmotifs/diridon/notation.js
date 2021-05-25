@@ -1,7 +1,7 @@
 (function () {
     const { measure, notes, find, beam, render } = new VF.Sheet({
         id: 'diridon',
-        measureWidths: [300, 220, 220, 260, 220]
+        measureWidths: [240, 220, 220, 260, 220]
     });
 
     // Measure 1

@@ -36,7 +36,7 @@
         .addNotes([
             tuplet(
                 beam(notes('F#4/8/#6', 'C#5/8/#7', { stem: 'down' })),
-                notes('(F#4 A4 C5 F#5)/h/#8'),
+                notes('(F4 A4 C5 F#5)/h/#8'),
                 { num_notes: 3, y_offset: -10 }
             )
         ]);

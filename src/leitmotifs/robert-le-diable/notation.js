@@ -22,7 +22,7 @@
     // Measure 3
     measure()
         .addNotes([
-            notes('C#5/q.', 'C#5/8/#1'),
+            notes('C#5/q.', 'C5/8/#1'),
             beam(notes('E5/8/#2', 'G#5/8/#3', 'C#6/8/#4', 'D#6/8/#5'))
         ]);
 

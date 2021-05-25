@@ -19,7 +19,7 @@
     measure()
         .addNotes([
             tuplet(notes('F4/q', 'Gb4/q', 'Ab4/q/#3')),
-            tuplet(notes('Ab4/q/#4', 'Bb4/q.', 'C5/8'), { num_notes: 3 })
+            tuplet(notes('A4/q/#4', 'Bb4/q.', 'C5/8'), { num_notes: 3 })
         ]);
 
     curve(3, 4);

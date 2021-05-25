@@ -29,16 +29,16 @@
     // Measure 4
     measure()
         .addNotes([
-            notes('C#5/h/#4', 'C#5/8/#5', 'C#4/8')
+            notes('C#5/h/#4', 'C#5/8/#5', 'C4/8')
         ]);
 
-    curve(2, 4);
+    curve(3, 4);
     curve(4, 5);
 
     // Measure 4
     measure()
         .addNotes([
-            notes('C#4/q', 'B4/q/r', 'B4/q/r')
+            notes('C4/q', 'B4/q/r', 'B4/q/r')
         ]);
 
     render();
