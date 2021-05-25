@@ -1,0 +1,11 @@
+{
+  "group": "Other",
+  "name": "Licht",
+  "id": "licht",
+  "description": "",
+  "occurrences": [
+    { "startsAt": 4, "endsAt": 9 },
+    { "startsAt": 42, "endsAt": 50 },
+    { "startsAt": 374, "endsAt": 378 }
+  ]
+}

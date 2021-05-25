@@ -3,5 +3,7 @@
   "name": "Auferweckung",
   "id": "auferweckung",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 0, "endsAt": 3 }
+  ]
 }
