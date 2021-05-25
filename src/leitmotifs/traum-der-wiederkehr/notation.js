@@ -12,7 +12,7 @@
                 notes('E5/q'),
                 beam(notes('Fb5/8', 'E5/8')),
                 notes('Gb5/q/#1'),
-                { num_notes: 3 }
+                { num_notes: 3, y_offset: -10 }
             ),
             tuplet(
                 notes('Gb5/q/#2'),
