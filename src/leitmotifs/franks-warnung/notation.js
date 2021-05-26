@@ -18,7 +18,7 @@
     measure()
         .addNotes([
             beam(notes('F4/8/#2', 'Eb4/8.', 'Db4/16')),
-            notes('D/q', 'C4/8/#3')
+            notes('D4/q', 'C4/8/#3')
         ]);
 
     curve(1, 2);
