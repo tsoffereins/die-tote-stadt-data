@@ -3,5 +3,9 @@
   "name": "Türen auf!",
   "id": "turen-auf",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 9, "endsAt": 19 },
+    { "startsAt": 50, "endsAt": 58 },
+    { "startsAt": 82, "endsAt": 92 }
+  ]
 }

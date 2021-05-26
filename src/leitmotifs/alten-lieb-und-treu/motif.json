@@ -3,5 +3,7 @@
   "name": "Alten Lieb und Treu (Brigitta)",
   "id": "alten-lieb-und-treu",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 357, "endsAt": 365 }
+  ]
 }

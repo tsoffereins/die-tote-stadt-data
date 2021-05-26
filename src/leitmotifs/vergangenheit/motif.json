@@ -4,11 +4,12 @@
   "id": "vergangenheit",
   "description": "",
   "occurrences": [
-    { "startsAt": 20,"endsAt": 23 },
+    { "startsAt": 19,"endsAt": 23 },
     { "startsAt": 27,"endsAt": 34 },
     { "startsAt": 60,"endsAt": 63 },
     { "startsAt": 93,"endsAt": 95 },
     { "startsAt": 189,"endsAt": 193 },
+    { "startsAt": 244,"endsAt": 250 },
     { "startsAt": 256,"endsAt": 262 },
     { "startsAt": 807,"endsAt": 811 },
     { "startsAt": 919,"endsAt": 921 },

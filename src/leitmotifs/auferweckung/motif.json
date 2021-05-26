@@ -4,6 +4,11 @@
   "id": "auferweckung",
   "description": "",
   "occurrences": [
-    { "startsAt": 0, "endsAt": 3 }
+    { "startsAt": 0, "endsAt": 3 },
+    { "startsAt": 40, "endsAt": 42 },
+    { "startsAt": 65, "endsAt": 67 },
+    { "startsAt": 102, "endsAt": 107 },
+    { "startsAt": 113, "endsAt": 118 },
+    { "startsAt": 366, "endsAt": 371 }
   ]
 }

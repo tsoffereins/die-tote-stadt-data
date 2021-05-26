@@ -3,5 +3,9 @@
   "name": "Kirche des Gewesenen",
   "id": "kirche-des-gewesenen",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 113, "endsAt": 118 },
+    { "startsAt": 204, "endsAt": 216 },
+    { "startsAt": 231, "endsAt": 243 }
+  ]
 }
