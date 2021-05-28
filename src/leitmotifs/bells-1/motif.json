@@ -6,6 +6,7 @@
   "occurrences": [
     { "startsAt": 23, "endsAt": 27 },
     { "startsAt": 262, "endsAt": 265 },
+    { "startsAt": 571, "endsAt": 593 },
     { "startsAt": 811, "endsAt": 815 }
   ]
 }

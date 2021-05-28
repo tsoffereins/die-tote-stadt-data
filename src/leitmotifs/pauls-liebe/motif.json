@@ -5,6 +5,7 @@
   "description": "",
   "occurrences": [
     { "startsAt": 33, "endsAt": 40 },
-    { "startsAt": 307, "endsAt": 314 }
+    { "startsAt": 307, "endsAt": 314 },
+    { "startsAt": 594, "endsAt": 605 }
   ]
 }

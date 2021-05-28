@@ -3,5 +3,8 @@
   "name": "Mein lebend Weib",
   "id": "mein-lebend-weib",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 441, "endsAt": 443 },
+    { "startsAt": 746, "endsAt": 749 }
+  ]
 }

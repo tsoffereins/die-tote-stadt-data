@@ -3,5 +3,8 @@
   "name": "Tagen des Glücks",
   "id": "tagen-des-glucks",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 496, "endsAt": 508 },
+    { "startsAt": 613, "endsAt": 663 }
+  ]
 }

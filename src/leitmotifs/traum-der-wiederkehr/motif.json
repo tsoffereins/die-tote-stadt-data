@@ -3,5 +3,9 @@
   "name": "Traum der Wiederkehr",
   "id": "traum-der-wiederkehr",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 677, "endsAt": 710 },
+    { "startsAt": 752, "endsAt": 763 },
+    { "startsAt": 788, "endsAt": 793 }
+  ]
 }
