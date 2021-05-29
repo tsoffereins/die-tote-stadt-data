@@ -3,5 +3,7 @@
   "name": "Brügge - A. Behutsam",
   "id": "behutsam",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 29, "endsAt": 32 }
+  ]
 }
