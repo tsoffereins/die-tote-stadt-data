@@ -3,5 +3,8 @@
   "name": "Mein Tote",
   "id": "mein-tote",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 845, "endsAt": 851 },
+    { "startsAt": 985, "endsAt": 988 }
+  ]
 }
