@@ -8,6 +8,9 @@
     { "startsAt": 50, "endsAt": 58 },
     { "startsAt": 82, "endsAt": 92 },
     { "startsAt": 379, "endsAt": 384 },
-    { "startsAt": 410, "endsAt": 412 }
+    { "startsAt": 410, "endsAt": 412 },
+    { "startsAt": 1047, "endsAt": 1061 },
+    { "startsAt": 1064, "endsAt": 1073 },
+    { "startsAt": 1171, "endsAt": 1181 }
   ]
 }
