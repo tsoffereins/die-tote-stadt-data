@@ -38,7 +38,7 @@
             beam(notes('A5/8', 'B5/8'))
         ]);
 
-    find(1).addAccidental(0, new Vex.Flow.Accidental('n'));
+    find(1).addAccidental(0, new VF.Accidental('n'));
 
     // Measure 5
     measure()

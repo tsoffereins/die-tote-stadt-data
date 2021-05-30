@@ -3,5 +3,10 @@
   "name": "Da bist du ja, Marie",
   "id": "da-bist-du-ja-marie",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 2298, "endsAt": 2325 },
+    { "startsAt": 2339, "endsAt": 2385 },
+    { "startsAt": 2488, "endsAt": 2537 },
+    { "startsAt": 2646, "endsAt": 2683 }
+  ]
 }

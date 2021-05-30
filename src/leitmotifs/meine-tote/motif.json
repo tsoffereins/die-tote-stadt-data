@@ -12,6 +12,12 @@
     { "startsAt": 2246, "endsAt": 2248 },
     { "startsAt": 2262, "endsAt": 2265 },
     { "startsAt": 2266, "endsAt": 2290 },
-    { "startsAt": 2290, "endsAt": 2299 }
+    { "startsAt": 2290, "endsAt": 2298 },
+    { "startsAt": 2325, "endsAt": 2339 },
+    { "startsAt": 2420, "endsAt": 2488 },
+    { "startsAt": 2498, "endsAt": 2504 },
+    { "startsAt": 2520, "endsAt": 2537 },
+    { "startsAt": 2595, "endsAt": 2615 },
+    { "startsAt": 2646, "endsAt": 2683 }
   ]
 }

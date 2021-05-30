@@ -3,5 +3,7 @@
   "name": "Brügge - B. Die tote Stadt",
   "id": "die-tote-stadt",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 2439, "endsAt": 2443 }
+  ]
 }
