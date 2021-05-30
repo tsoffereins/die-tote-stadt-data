@@ -5,6 +5,14 @@
   "description": "",
   "occurrences": [
     { "startsAt": 441, "endsAt": 443 },
-    { "startsAt": 746, "endsAt": 749 }
+    { "startsAt": 746, "endsAt": 749 },
+    { "startsAt": 1334, "endsAt": 1395 },
+    { "startsAt": 1410, "endsAt": 1414 },
+    { "startsAt": 1417, "endsAt": 1420 },
+    { "startsAt": 1433, "endsAt": 1437 },
+    { "startsAt": 1999, "endsAt": 2014 },
+    { "startsAt": 2161, "endsAt": 2170 },
+    { "startsAt": 2175, "endsAt": 2177 },
+    { "startsAt": 2224, "endsAt": 2227 }
   ]
 }

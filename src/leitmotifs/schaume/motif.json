@@ -3,5 +3,8 @@
   "name": "Ohne sie kein Glanz (Schaume)",
   "id": "schaume",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 2188, "endsAt": 2193 },
+    { "startsAt": 2258, "endsAt": 2261 }
+  ]
 }

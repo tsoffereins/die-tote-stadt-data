@@ -4,5 +4,11 @@
   "id": "tanzerin",
   "description": "",
   "occurrences": [
-    { "startsAt": 827, "endsAt": 831 }]
+    { "startsAt": 827, "endsAt": 831 },
+    { "startsAt": 1285, "endsAt": 1303 },
+    { "startsAt": 1896, "endsAt": 1898 },
+    { "startsAt": 1979, "endsAt": 1987 },
+    { "startsAt": 2062, "endsAt": 2070 },
+    { "startsAt": 2254, "endsAt": 2258 }
+  ]
 }

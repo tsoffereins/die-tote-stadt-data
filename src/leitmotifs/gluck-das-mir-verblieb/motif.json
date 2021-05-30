@@ -3,5 +3,8 @@
   "name": "Glück, das mir verblieb",
   "id": "gluck-das-mir-verblieb",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 1532, "endsAt": 1595 },
+    { "startsAt": 1704, "endsAt": 1773 }
+  ]
 }

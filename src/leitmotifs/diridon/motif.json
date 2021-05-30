@@ -3,5 +3,8 @@
   "name": "Diridon (Gaston)",
   "id": "diridon",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 1830, "endsAt": 1881 },
+    { "startsAt": 2129, "endsAt": 2153 }
+  ]
 }
