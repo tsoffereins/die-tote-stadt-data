@@ -3,5 +3,7 @@
   "name": "Brügge",
   "id": "brugge",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 2959, "endsAt": 3022 }
+  ]
 }

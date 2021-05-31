@@ -4,6 +4,7 @@
   "id": "die-tote-stadt",
   "description": "",
   "occurrences": [
-    { "startsAt": 2439, "endsAt": 2443 }
+    { "startsAt": 2439, "endsAt": 2443 },
+    { "startsAt": 2959, "endsAt": 3022 }
   ]
 }

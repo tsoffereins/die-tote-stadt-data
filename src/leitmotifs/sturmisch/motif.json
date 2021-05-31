@@ -3,5 +3,8 @@
   "name": "Stürmisch",
   "id": "sturmisch",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 2934, "endsAt": 2959 },
+    { "startsAt": 3050, "endsAt": 3072 }
+  ]
 }
