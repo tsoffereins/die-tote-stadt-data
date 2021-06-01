@@ -1,0 +1,10 @@
+{
+  "group": "Theatre group",
+  "name": "Tänzergesellschaft",
+  "id": "tanzergesellschaft",
+  "description": "",
+  "occurrences": [
+    { "startsAt": 3695, "endsAt": 3699 },
+    { "startsAt": 3705, "endsAt": 3709 }
+  ]
+}

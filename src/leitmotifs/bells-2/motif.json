@@ -4,11 +4,11 @@
   "id": "bells-2",
   "description": "",
   "occurrences": [
-    { "startsAt": 682, "endsAt": 685 },
-    { "startsAt": 3197, "endsAt": 3203 },
-    { "startsAt": 3235, "endsAt": 3241 },
-    { "startsAt": 3265, "endsAt": 3272 },
-    { "startsAt": 3294, "endsAt": 3299 },
-    { "startsAt": 3325, "endsAt": 3337 }
+    { "startsAt": 3203, "endsAt": 3270 },
+    { "startsAt": 3293, "endsAt": 3299 },
+    { "startsAt": 3325, "endsAt": 3337 },
+    { "startsAt": 3538, "endsAt": 3540 },
+    { "startsAt": 3542, "endsAt": 3544 },
+    { "startsAt": 3629, "endsAt": 3631 }
   ]
 }
