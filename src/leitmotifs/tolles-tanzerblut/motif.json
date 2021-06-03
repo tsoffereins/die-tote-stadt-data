@@ -1,0 +1,11 @@
+{
+  "group": "Theatre group",
+  "name": "Tolles Tänzerblut",
+  "id": "tolles-tanzerblut",
+  "description": "",
+  "occurrences": [
+    { "startsAt": 2188, "endsAt": 2193 },
+    { "startsAt": 2258, "endsAt": 2261 },
+    { "startsAt": 3756, "endsAt": 3766 }
+  ]
+}

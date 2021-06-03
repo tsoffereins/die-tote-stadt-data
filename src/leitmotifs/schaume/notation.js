@@ -1,63 +1,39 @@
 (function () {
-    const { measure, notes, curve, render } = new VF.Sheet({
+    const { measure, notes, beam, find, curve, render } = new VF.Sheet({
         id: 'schaume',
-        measureWidths: [240, 200, 200, 200, 200, 200, 160, 200]
+        measureWidths: [200, 220, 120],
+        offsetY: 20
     });
 
     // Measure 1
-    measure('2/4')
+    measure('3/8')
         .addNotes([
-            notes('B4/q/r', 'D5/8', 'E5/8')
+            notes('B4/8/r'),
+            beam(notes('(G5 B5 D6)/16', 'E6/16', '(A5 C6 F6)/8/#1'))
         ])
         .addClef('treble')
-        .addKeySignature('F')
-        .addTimeSignature('2/4');
+        .addKeySignature('G')
+        .addTimeSignature('6/8');
+
+    find(1).addAccidental(2, new VF.Accidental('n'));
 
     // Measure 2
-    measure()
+    measure('6/8')
         .addNotes([
-            notes('G5/8.', 'E5/16', 'D5/q/#1')
+            beam(notes('(G5 B5 D6)/16', 'E6/16', '(A5 C6 F6)/q/#2')),
+            notes('(A5 C6 F6)/q./#3')
         ]);
+
+    find(2).addAccidental(2, new VF.Accidental('n'));
+    curve(2, 3);
 
     // Measure 3
-    measure()
+    measure('3/8')
         .addNotes([
-            notes('D5/q/#2', 'D5/8', 'E5/8')
-        ]);
-
-    curve(1, 2);
-
-    // Measure 4
-    measure()
-        .addNotes([
-            notes('G5/8.', 'E5/16', 'D5/q/#3')
-        ]);
-
-    // Measure 5
-    measure()
-        .addNotes([
-            notes('D5/q/#4', 'D5/8', 'E5/8')
+            notes('(A5 C6 F6)/8/#4', 'B4/q/r')
         ]);
 
     curve(3, 4);
-
-    // Measure 6
-    measure()
-        .addNotes([
-            notes('G5/8.', 'E5/16', 'D5/8.', 'C5/16')
-        ]);
-
-    // Measure 7
-    measure()
-        .addNotes([
-            notes('B4/q', 'A4/q')
-        ]);
-
-    // Measure 8
-    measure()
-        .addNotes([
-            notes('B4/8', 'G4/q.')
-        ]);
 
     render();
 })();
