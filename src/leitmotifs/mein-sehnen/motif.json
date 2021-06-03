@@ -3,5 +3,8 @@
   "name": "Mein Sehnen",
   "id": "mein-sehnen",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 4131, "endsAt": 4168 },
+    { "startsAt": 4229, "endsAt": 4468 }
+  ]
 }

@@ -3,5 +3,12 @@
   "name": "Schäume",
   "id": "schaume",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 3749, "endsAt": 3756 },
+    { "startsAt": 3774, "endsAt": 3781 },
+    { "startsAt": 3792, "endsAt": 3801 },
+    { "startsAt": 3830, "endsAt": 3833 },
+    { "startsAt": 4098, "endsAt": 4102 },
+    { "startsAt": 4109, "endsAt": 4131 }
+  ]
 }
