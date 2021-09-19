@@ -8,6 +8,13 @@
     { "startsAt": 2258, "endsAt": 2261 },
     { "startsAt": 3756, "endsAt": 3766 },
     { "startsAt": 3782, "endsAt": 3792 },
-    { "startsAt": 3845, "endsAt": 3947 }
+    { "startsAt": 3845, "endsAt": 3947 },
+    { "startsAt": 4479, "endsAt": 4484 },
+    { "startsAt": 4517, "endsAt": 4521 },
+    { "startsAt": 4576, "endsAt": 4583 },
+    { "startsAt": 4601, "endsAt": 4606 },
+    { "startsAt": 4702, "endsAt": 4729 },
+    { "startsAt": 4782, "endsAt": 4797 },
+    { "startsAt": 4818, "endsAt": 4861 }
   ]
 }

@@ -27,6 +27,8 @@ There are 2 ways to contribute:
 If you are familiar with GitHub you probably know how to propose changes: Fork the repository, apply your changes and
 make a pull request. In that way your changes are open for discussion and can be applied afterwards.
 
+Feel free to 'fiddle around' with this [JS Fiddle](https://jsfiddle.net/mz3v8wn7/)
+
 If you are not familiar with GitHub, but you would like to contribute in this way, please reach out to us by
 [reporting an issue](https://github.com/tsoffereins/die-tote-stadt-data/issues).
 
