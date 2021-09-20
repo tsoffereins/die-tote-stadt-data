@@ -4,7 +4,6 @@
   "id": "kussen",
   "description": "",
   "occurrences": [
-    { "startsAt": 4485, "endsAt": 4508 },
-    { "startsAt": 4521, "endsAt": 4525 }
+    { "startsAt": 4485, "endsAt": 4508 }
   ]
 }
