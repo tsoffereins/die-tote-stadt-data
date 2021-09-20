@@ -3,5 +3,8 @@
   "name": "Eine Szene",
   "id": "eine-szene",
   "description": "",
-  "occurrences": []
+  "occurrences": [
+    { "startsAt": 4891, "endsAt": 4905 },
+    { "startsAt": 4922, "endsAt": 4933 }
+  ]
 }

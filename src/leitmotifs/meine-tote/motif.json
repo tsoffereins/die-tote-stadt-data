@@ -28,6 +28,18 @@
     { "startsAt": 3631, "endsAt": 3644 },
     { "startsAt": 3674, "endsAt": 3684 },
     { "startsAt": 4513, "endsAt": 4516 },
-    { "startsAt": 4525, "endsAt": 4533 }
+    { "startsAt": 4525, "endsAt": 4533 },
+    { "startsAt": 4954, "endsAt": 4957 },
+    { "startsAt": 4964, "endsAt": 4973 },
+    { "startsAt": 4990, "endsAt": 5006 },
+    { "startsAt": 5014, "endsAt": 5023 },
+    { "startsAt": 5033, "endsAt": 5045 },
+    { "startsAt": 5048, "endsAt": 5060 },
+    { "startsAt": 5124, "endsAt": 5152 },
+    { "startsAt": 5336, "endsAt": 5347 },
+    { "startsAt": 5388, "endsAt": 5405 },
+    { "startsAt": 5464, "endsAt": 5469 },
+    { "startsAt": 5575, "endsAt": 5592 },
+    { "startsAt": 5664, "endsAt": 5671 }
   ]
 }
