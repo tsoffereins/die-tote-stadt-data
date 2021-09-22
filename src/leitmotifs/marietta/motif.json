@@ -9,6 +9,11 @@
     { "startsAt": 1239, "endsAt": 1253 },
     { "startsAt": 1285, "endsAt": 1303 },
     { "startsAt": 2196, "endsAt": 2199 },
-    { "startsAt": 5653, "endsAt": 5655 }
+    { "startsAt": 5653, "endsAt": 5655 },
+    { "startsAt": 5679, "endsAt": 5681 },
+    { "startsAt": 5705, "endsAt": 5707 },
+    { "startsAt": 5721, "endsAt": 5737 },
+    { "startsAt": 5750, "endsAt": 5757 },
+    { "startsAt": 5769, "endsAt": 5780 }
   ]
 }

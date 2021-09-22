@@ -18,6 +18,9 @@
     { "startsAt": 4778, "endsAt": 4782 },
     { "startsAt": 5006, "endsAt": 5015 },
     { "startsAt": 5594, "endsAt": 5602 },
-    { "startsAt": 5655, "endsAt": 5664 }
+    { "startsAt": 5655, "endsAt": 5664 },
+    { "startsAt": 5681, "endsAt": 5696 },
+    { "startsAt": 5707, "endsAt": 5712 },
+    { "startsAt": 5737, "endsAt": 5750 }
   ]
 }
