@@ -1,0 +1,10 @@
+{
+  "group": "Other",
+  "name": "Procession",
+  "id": "procession",
+  "description": "",
+  "occurrences": [
+    { "startsAt": 6003, "endsAt": 6028 },
+    { "startsAt": 6077, "endsAt": 6110 }
+  ]
+}
