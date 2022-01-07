@@ -298,5 +298,33 @@
         "ean": "0807280165692"
       }
     ]
+  },
+  {
+    "id": "kirill-petrenko-2019",
+    "year": "2019",
+    "conductor": "Kirill Petrenko",
+    "roles": {
+      "Paul": "Jonas Kaufman",
+      "Marie/Marietta": "Marlis Petersen",
+      "Frank": "Andrej Fylonczyk",
+      "Brigitta": "Jennifer Johnston",
+      "Juliette": "Mirjam Mesak",
+      "Lucienne": "Corinna Scheurle",
+      "Gaston": "Manuel Gunther",
+      "Victorin": "Manuel Gunther",
+      "Fritz": "Andrej Fylonczyk",
+      "Graf Albert": "Dean Power"
+    },
+    "choirs": [],
+    "orchestra": "Bayerische Staatsoper",
+    "venue": "Bayerische Staatsoper",
+    "releases": [
+      {
+        "type": "dvd",
+        "year": "2021",
+        "label": "BSO Recordings",
+        "ean": "4028098000067"
+      }
+    ]
   }
 ]
