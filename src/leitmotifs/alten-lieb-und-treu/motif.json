@@ -4,6 +4,7 @@
   "id": "alten-lieb-und-treu",
   "description": "",
   "occurrences": [
-    { "startsAt": 357, "endsAt": 365 }
+    { "startsAt": 357, "endsAt": 365 },
+    { "startsAt": 7805, "endsAt": 7834 }
   ]
 }

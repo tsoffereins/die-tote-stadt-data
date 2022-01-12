@@ -5,6 +5,8 @@
   "description": "",
   "occurrences": [
     { "startsAt": 1532, "endsAt": 1595 },
-    { "startsAt": 1704, "endsAt": 1773 }
+    { "startsAt": 1704, "endsAt": 1773 },
+    { "startsAt": 8054, "endsAt": 8080 },
+    { "startsAt": 8101, "endsAt": 8223 }
   ]
 }
